@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    background-color: #1f2029;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container-formulario {
+    width: 40vw;
+    height: 500px;
+    background-color: #353744;
+    border-radius: 6px;
+    color: #c4c3ca;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container-formulario h1 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 2.5em;
+}
+
+.formulario {
+    width: auto;
+    background-color: #1f2029;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+}
+
+svg {
+    color: #ffeba7;
+}
+
+.email input {
+    width: 325px;
+    height: 40px;
+    padding: 10px 10px 10px 0px;
+    background-color: #1f2029;
+    border: 0;
+    color: white;
+
+}
+
+.senha input {
+    width: 300px;
+    height: 40px;
+    padding: 10px 10px 10px 0px;
+    background-color: #1f2029;
+    border: 0;
+    color: white;
+}
+
+
+input:focus {
+    outline: 0;
+}
+
+#botao {
+    border-radius: 4px;
+    height: 44px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+    padding: 0 30px;
+    letter-spacing: 1px;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    -ms-flex-pack: center;
+    text-align: center;
+    border: none;
+    background-color: #ffeba7;
+    color: #102770;
+    box-shadow: 0 8px 24px 0 rgba(255, 235, 167, .2);
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+#botao:active,
+#botao:focus {
+    background-color: #102770;
+    color: #ffeba7;
+    box-shadow: 0 8px 24px 0 rgba(16, 39, 112, .2);
+}
+
+
+#botao:hover {
+    background-color: #102770;
+    color: #ffeba7;
+    box-shadow: 0 8px 24px 0 rgba(16, 39, 112, .2);
+}
+
+.container-formulario a {
+    color: #c4c3ca;
+    cursor: pointer;
+    transition: all 200ms linear;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.container-formulario a:hover {
+    color: #ffeba7;
+}
+
+.olho {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 960px) {
+    .container-formulario h1 {
+        font-size: 2em;
+    }
+
+    .email input {
+        width: 225px;
+        height: 30px;
+    }
+
+    .senha input {
+        width: 200px;
+        height: 30px;
+
+    }
+
+    svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    #botao {
+        padding: 0 20px;
+        height: 35px;
+    }
+
+    .container-formulario a {
+        font-size: 12px;
+    }
+
+}
+
+@media only screen and (max-width: 720px){
+    .email input {
+        width: 155px;
+    }
+
+    .senha input {
+        width: 130px;
+
+    }
+}
+
+@media only screen and (max-width: 490px){
+    .container-formulario h1 {
+        font-size: 1.7em;
+    }
+
+    .email input {
+        width: 145px;
+        height: 20px;
+    }
+
+    .senha input {
+        width: 120px;
+        height: 20px;
+
+    }
+
+    #botao {
+        padding: 0 15px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .container-formulario{
+        width: 230px;
+    }
+}
+
+#cadastro{
+    display: none;
+}
+
