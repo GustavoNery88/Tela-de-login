@@ -168,41 +168,31 @@ input:focus {
 }
 
 @media only screen and (max-width: 720px){
+    
+
+    .container-formulario{
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 380px){
+
+    .container-formulario{
+        width: 270px;
+    }
+
     .email input {
         width: 155px;
+        height: 20px;
     }
 
     .senha input {
         width: 130px;
-
-    }
-}
-
-@media only screen and (max-width: 490px){
-    .container-formulario h1 {
-        font-size: 1.7em;
-    }
-
-    .email input {
-        width: 145px;
-        height: 20px;
-    }
-
-    .senha input {
-        width: 120px;
         height: 20px;
 
     }
 
-    #botao {
-        padding: 0 15px;
-        height: 30px;
-        font-size: 10px;
-    }
-
-    .container-formulario{
-        width: 230px;
-    }
+    
 }
 
 #cadastro{

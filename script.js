@@ -17,14 +17,13 @@ facaOLogin.addEventListener("click", function facaLogin() {
 let senha = $('.senha');
 let olho = $(".olho");
 
-olho.mousedown(function () {
-  senha.attr("type", "text");
+
+
+olho.click(function () {
+  if (senha.attr("type") === "text") {
+    senha.attr("type", "password");
+  } else {
+    senha.attr("type", "text");
+  }
 });
 
-olho.mouseup(function () {
-  senha.attr("type", "password");
-});
-
-$("#olho").mouseout(function () {
-  $("#senha").attr("type", "password");
-});
