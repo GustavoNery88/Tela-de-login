@@ -156,6 +156,11 @@ input:focus {
         height: 20px;
     }
 
+    .olho svg{
+        width: 16px;
+        height: 16px;
+    }
+
     #botao {
         padding: 0 20px;
         height: 35px;
@@ -178,16 +183,16 @@ input:focus {
 @media only screen and (max-width: 380px){
 
     .container-formulario{
-        width: 270px;
+        width: 280px;
     }
 
     .email input {
-        width: 155px;
+        width: 185px;
         height: 20px;
     }
 
     .senha input {
-        width: 130px;
+        width: 160px;
         height: 20px;
 
     }
