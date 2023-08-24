@@ -50,7 +50,7 @@ svg {
     color: #ffeba7;
 }
 
-.email input {
+.email input, .nome input {
     width: 325px;
     height: 40px;
     padding: 10px 10px 10px 0px;
@@ -140,7 +140,7 @@ input:focus {
         font-size: 2em;
     }
 
-    .email input {
+    .email input, .nome input {
         width: 225px;
         height: 30px;
     }
@@ -186,7 +186,8 @@ input:focus {
         width: 280px;
     }
 
-    .email input {
+
+    .email input, .nome input {
         width: 185px;
         height: 20px;
     }
